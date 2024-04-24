@@ -4,7 +4,7 @@ import { Botoniframe, detalles, toggle,demo, torneos } from '../component/elemen
 
 
 const { generateRandomPassword, generateRandomEmail } = require('../component/LoginPass.cy');
-// Definir afterEach a nivel global
+
 afterEach(() => {
   // Cerrar el navegador al finalizar cada prueba
   cy.window().then((win) => {

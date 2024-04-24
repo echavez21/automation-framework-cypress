@@ -5,7 +5,7 @@ import { PasswordField, PasswordConfirmation, BotonRegistrarfinal, Botoniframe, 
 
 const { generateRandomEmail } = require('../component/LoginPass.cy');
 
-// Definir afterEach a nivel global
+
 afterEach(() => {
   // Cerrar el navegador al finalizar cada prueba
   cy.window().then((win) => {
@@ -67,8 +67,7 @@ describe("Flujo proceso para registrar un nuevo usuario del challenge", () => {
 
     // Hacer clic en el botón de registro final
     BotonRegistrarfinal().click({ force: true });
-    // Hacer click en boton ver juegos
-    //cy.get('a.button:nth-child(2)').click(); 
+
 
 
 
