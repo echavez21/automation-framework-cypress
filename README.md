@@ -20,6 +20,12 @@ Cypress-->package.json (contiene la configuracion para poder ejecutar un test su
 
 ****EJECUCION DE TEST CASES****
 
-1) Si se desea hacer por medio de terminal se debe de ejecutar el siguiente comando en la terminal del ide(vscode) npm run test
-2) Si se desea ejecutar mediante la interfaz de cypress ejecutar el siguiente comando npm run cypress:open seleccionar la opcion E2E testing, click en continuar despues seleccionar la opcion scaffold example specs,presionar el boton Ok.
-3) una vez se tenga configurado esa parte con el codigo descargado se seleccionara por separados los test cases o se puede seleccionar el archivo con ambos casos de pruebas testsuite.cy.js
+1) tener instalado vscode para ver el proyecto
+2) Descargar el Instalador de Git:
+Ve al sitio web oficial de Git: Git Downloads.
+Descarga el instalador de Git para Windows.
+Ejecutar el instalador descargado y sigue las instrucciones en pantalla y verificar la version con el comando git --version
+3) Abrir terminal en vscode y clonar el proyecto desde github con el siguiente comando git clone https://github.com/echavez21/automation-framework-cypress.git
+4) Si se desea hacer por medio de terminal se debe de ejecutar el siguiente comando en la terminal del ide(vscode) npm run test
+5) Si se desea ejecutar mediante la interfaz de cypress ejecutar el siguiente comando npm run cypress:open seleccionar la opcion E2E testing, click en continuar despues seleccionar la opcion scaffold example specs,presionar el boton Ok.
+6) una vez se tenga configurado esa parte con el codigo descargado se seleccionara por separados los test cases o se puede seleccionar el archivo con ambos casos de pruebas testsuite.cy.js
