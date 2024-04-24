@@ -15,4 +15,11 @@ Cypress-->e2e-->DemoTorneos.cy.js (contiene la ejecucion del flujo de hacer clic
                 RegistroNuevoUsuario.cy.js (contiene el flujo de registrar un usuario nuevo, para este se debe de interactuar con un captcha ya que eso es imposible poder automatizar)
                 testsuite.cy.js (contiene los dos escenarios para poder ejecutarlos simultaneamente desde la interfaz de cypress)
 
+Cypress-->package.json (contiene la configuracion para poder ejecutar un test suite con los archivos separados de DemoTorneos y RegistroNuevoUsuario)
 
+
+****EJECUCION DE TEST CASES****
+
+1) Si se desea hacer por medio de terminal se debe de ejecutar el siguiente comando en la terminal del ide(vscode) npm run test
+2) Si se desea ejecutar mediante la interfaz de cypress ejecutar el siguiente comando npm run cypress:open seleccionar la opcion E2E testing, click en continuar despues seleccionar la opcion scaffold example specs,presionar el boton Ok.
+3) una vez se tenga configurado esa parte con el codigo descargado se seleccionara por separados los test cases o se puede seleccionar el archivo con ambos casos de pruebas testsuite.cy.js
