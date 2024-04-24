@@ -3,4 +3,16 @@
 Este es un framework de automatizacion hecho en cypress con lenguaje Javascript, este framework se puede ejecutar de dos formas ya sea por terminal desde un ide o desde cypress e2e interfaz grafica.
 
 antes de ejecutar el proyecto se debe tener instalado Node.js y npm, para poder verificar si ya se cuenta con uan version de estos se debera de abrir cmd y ejecutar las siguientes lineas de comando:
-Node --version
+Node --version y npm --version, la version del npm viene incluida en la instalacion del Node.js si no se cuenta con la instalacion se debera de descargar desde la siguiente url https://nodejs.org/en/download
+una vez contemos con esa instalacion se debera de instalar cypress con el siguiente comando: npm install cypress --save-dev.
+
+cuando ya contemos con la instalacion de los prerequisitos se describe la estructuracion del proyecto.
+
+Cypress-->components--> elementsLocators.cy.js (Contiene todos los elementos por csselector o id para usarlo de una forma mas ordenada)
+                        LoginPass.cy.js (contiene una funcion para generar un correo aleatorio, la url,contra como parametro)
+
+Cypress-->e2e-->DemoTorneos.cy.js (contiene la ejecucion del flujo de hacer click en la opcion torneos, cambair el tema de la pagina a claro  hacer click en jugar   
+                RegistroNuevoUsuario.cy.js (contiene el flujo de registrar un usuario nuevo, para este se debe de interactuar con un captcha ya que eso es imposible poder automatizar)
+                testsuite.cy.js (contiene los dos escenarios para poder ejecutarlos simultaneamente desde la interfaz de cypress)
+
+
